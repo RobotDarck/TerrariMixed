@@ -1,0 +1,3 @@
+displayName = Terraria Mixed
+author = Robot_Darck
+version = 0.1
