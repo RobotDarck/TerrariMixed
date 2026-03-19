@@ -16,4 +16,6 @@ NPCs: {
 	NPC_Copper_1.DisplayName: Copper slime
 	NPC_Copper_2.DisplayName: Copper demon eye
 	NPC_Copper_3.DisplayName: Copper zombie
+	NPC_Amethyst_1.DisplayName: Amethyst slime
+	NPC_Amethyst_2.DisplayName: Amethyst demon eye
 }
