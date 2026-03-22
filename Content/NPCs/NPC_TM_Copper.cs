@@ -97,7 +97,7 @@ namespace TerrariMixed.Content.NPCs
 			NPC.height = 24;
 			NPC.damage = 21;
 			NPC.defense = 9;
-			NPC.lifeMax = 100;
+			NPC.lifeMax = 80;
 			NPC.HitSound = SoundID.NPCHit1;
 			NPC.DeathSound = SoundID.NPCDeath2;
 			NPC.value = 90f;

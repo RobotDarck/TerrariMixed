@@ -24,7 +24,6 @@ namespace TerrariMixed.Content.NPCs
 			NPC.value = 120f;
 			NPC.knockBackResist = 0.5f;
 			NPC.aiStyle = NPCAIStyleID.Slime;
-
 			AIType = NPCID.BlueSlime;
 			AnimationType = NPCID.BlueSlime;
 			Banner = Item.NPCtoBanner(NPCID.BlueSlime);
@@ -36,7 +35,7 @@ namespace TerrariMixed.Content.NPCs
 		}
 
 		public override float SpawnChance(NPCSpawnInfo spawnInfo) {
-			return SpawnCondition.Cavern.Chance * 0.17f;
+			return SpawnCondition.Cavern.Chance * 0.05f;
 		}
 		public override void SetBestiary(BestiaryDatabase database, BestiaryEntry bestiaryEntry) {
 			bestiaryEntry.Info.AddRange([
@@ -75,7 +74,7 @@ namespace TerrariMixed.Content.NPCs
 		}
 
 		public override float SpawnChance(NPCSpawnInfo spawnInfo) {
-			return SpawnCondition.Cavern.Chance * 0.17f;
+			return SpawnCondition.Cavern.Chance * 0.05f;
 		}
 		public override void SetBestiary(BestiaryDatabase database, BestiaryEntry bestiaryEntry) {
 			bestiaryEntry.Info.AddRange([
