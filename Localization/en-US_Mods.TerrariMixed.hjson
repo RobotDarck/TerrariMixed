@@ -10,6 +10,11 @@ Items: {
 			It's snowing on Mt.Fuji
 			'''
 	}
+
+	Items_TM_Copper_1: {
+		DisplayName: Big copper coin
+		Tooltip: ""
+	}
 }
 
 NPCs: {
