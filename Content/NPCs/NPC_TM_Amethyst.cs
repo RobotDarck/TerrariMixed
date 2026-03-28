@@ -4,6 +4,7 @@ using Terraria.GameContent.ItemDropRules;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ModLoader.Utilities;
+using TerrariMixed.Content.Items;
 
 namespace TerrariMixed.Content.NPCs
 {
@@ -32,6 +33,7 @@ namespace TerrariMixed.Content.NPCs
 
 		public override void ModifyNPCLoot(NPCLoot npcLoot) {
 			npcLoot.Add(ItemDropRule.Common(ItemID.Amethyst, 5, 1, 3));
+			npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<Items_TM_Amethyst_1>(), 5, 1, 3));
 		}
 
 		public override float SpawnChance(NPCSpawnInfo spawnInfo) {

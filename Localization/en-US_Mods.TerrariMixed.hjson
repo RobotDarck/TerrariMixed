@@ -11,6 +11,36 @@ Items: {
 			'''
 	}
 
+	Items_TM_Amethyst_1: {
+		DisplayName: Amethyst gel
+		Tooltip: ""
+	}
+
+	Items_TM_Topaz_1: {
+		DisplayName: Topaz gel
+		Tooltip: ""
+	}
+
+	Items_TM_Sapphire_1: {
+		DisplayName: Sapphire gel
+		Tooltip: ""
+	}
+
+	Items_TM_Emerald_1: {
+		DisplayName: Emerald gel
+		Tooltip: ""
+	}
+
+	Items_TM_Ruby_1: {
+		DisplayName: Ruby gel
+		Tooltip: ""
+	}
+
+	Items_TM_Diamond_1: {
+		DisplayName: Diamond gel
+		Tooltip: ""
+	}
+
 	Items_TM_Copper_1: {
 		DisplayName: Big copper coin
 		Tooltip: ""
@@ -49,9 +79,14 @@ NPCs: {
 	NPC_Amethyst_1.DisplayName: Amethyst slime
 	NPC_Amethyst_2.DisplayName: Amethyst eye
 	NPC_Zombie_2.DisplayName: Zombie eye
+	NPC_Topaz_1.DisplayName: Topaz slime
 	NPC_Topaz_2.DisplayName: Topaz eye
+	NPC_Diamond_1.DisplayName: Diamond slime
 	NPC_Diamond_2.DisplayName: Diamond eye
+	NPC_Sapphire_1.DisplayName: Sipphire slime
 	NPC_Sapphire_2.DisplayName: Sapphire eye
+	NPC_Emerald_1.DisplayName: Emerald slime
 	NPC_Emerald_2.DisplayName: Emerald eye
+	NPC_Ruby_1.DisplayName: Ruby slime
 	NPC_Ruby_2.DisplayName: Ruby eye
 }

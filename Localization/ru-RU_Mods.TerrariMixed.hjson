@@ -1,0 +1,92 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	sworld: {
+		DisplayName: sworld
+		Tooltip:
+			'''
+			Template of an item
+			Replacing this tooltip is duty 
+			It's snowing on Mt.Fuji
+			'''
+	}
+
+	Items_TM_Amethyst_1: {
+		DisplayName: Аметистовый гель
+		Tooltip: ""
+	}
+
+	Items_TM_Topaz_1: {
+		DisplayName: Топазовый гель
+		Tooltip: ""
+	}
+
+	Items_TM_Sapphire_1: {
+		DisplayName: Сапфировый гель
+		Tooltip: ""
+	}
+
+	Items_TM_Emerald_1: {
+		DisplayName: Изумрудный гель
+		Tooltip: ""
+	}
+
+	Items_TM_Ruby_1: {
+		DisplayName: Рубиновый гель
+		Tooltip: ""
+	}
+
+	Items_TM_Diamond_1: {
+		DisplayName: Алмазный гель
+		Tooltip: ""
+	}
+
+	Items_TM_Copper_1: {
+		DisplayName: Большая медная монета
+		Tooltip: ""
+	}
+
+	Items_TM_Gladiator_1: {
+		DisplayName: Фигура гладиатора
+		Tooltip: Imune to knockback
+	}
+
+	Items_TM_Dirt_1: {
+		DisplayName: Стул из земли
+		Tooltip: ""
+	}
+
+	Items_TM_Dirt_2: {
+		DisplayName: Стол из земли
+		Tooltip: ""
+	}
+
+	Items_TM_Dirt_3: {
+		DisplayName: Верстак из земли
+		Tooltip: ""
+	}
+
+	Items_TM_Dirt_4: {
+		DisplayName: Дверь из земли
+		Tooltip: ""
+	}
+}
+
+NPCs: {
+	NPC_Copper_1.DisplayName: Медный слизень
+	NPC_Copper_2.DisplayName: Медный демонический глаз
+	NPC_Copper_3.DisplayName: Медный зомби
+	NPC_Amethyst_1.DisplayName: Аметистовый слизень
+	NPC_Amethyst_2.DisplayName: Аметистовый глаз
+	NPC_Zombie_2.DisplayName: Зомби глаз
+	NPC_Topaz_1.DisplayName: Топазовый слизень
+	NPC_Topaz_2.DisplayName: Топазовый глаз
+	NPC_Diamond_1.DisplayName: Алмазный слизень
+	NPC_Diamond_2.DisplayName: Алмазный глаз
+	NPC_Sapphire_1.DisplayName: Сапфировый слизень
+	NPC_Sapphire_2.DisplayName: Сапфировый глаз
+	NPC_Emerald_1.DisplayName: Изумрудный слизень
+	NPC_Emerald_2.DisplayName: Изумрудный глаз
+	NPC_Ruby_1.DisplayName: Рубиновый слизень
+	NPC_Ruby_2.DisplayName: Рубиновый глаз
+}
