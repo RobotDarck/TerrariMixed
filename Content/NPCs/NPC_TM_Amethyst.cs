@@ -14,7 +14,7 @@ namespace TerrariMixed.Content.NPCs
 		}
 
 		public override void SetDefaults() {
-			NPC.width = 16;
+			NPC.width = 15;
 			NPC.height = 12;
 			NPC.damage = 20;
 			NPC.defense = 3;

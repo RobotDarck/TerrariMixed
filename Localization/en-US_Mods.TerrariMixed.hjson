@@ -15,6 +15,31 @@ Items: {
 		DisplayName: Big copper coin
 		Tooltip: ""
 	}
+
+	Items_TM_Gladiator_1: {
+		DisplayName: Gladiator figure
+		Tooltip: Imune to knockback
+	}
+
+	Items_TM_Dirt_1: {
+		DisplayName: Dirt chair
+		Tooltip: ""
+	}
+
+	Items_TM_Dirt_2: {
+		DisplayName: Dirt table
+		Tooltip: ""
+	}
+
+	Items_TM_Dirt_3: {
+		DisplayName: Dirt work bench
+		Tooltip: ""
+	}
+
+	Items_TM_Dirt_4: {
+		DisplayName: Dirt door
+		Tooltip: ""
+	}
 }
 
 NPCs: {
