@@ -70,6 +70,131 @@ Items: {
 		DisplayName: Dirt door
 		Tooltip: ""
 	}
+
+	Items_TM_Banners_1: {
+		DisplayName: Amethyst slime Banner
+		Tooltip: ""
+	}
+
+	Items_TM_Banners_2: {
+		DisplayName: Amethyst eye Banner
+		Tooltip: ""
+	}
+
+	Items_TM_Banners_3: {
+		DisplayName: Copper slime Banner
+		Tooltip: ""
+	}
+
+	Items_TM_Banners_4: {
+		DisplayName: Copper demon eye Banner
+		Tooltip: ""
+	}
+
+	Items_TM_Banners_5: {
+		DisplayName: Copper zombie Banner
+		Tooltip: ""
+	}
+
+	Items_TM_Banners_6: {
+		DisplayName: Emerald slime Banner
+		Tooltip: ""
+	}
+
+	Items_TM_Banners_7: {
+		DisplayName: Emerald eye Banner
+		Tooltip: ""
+	}
+
+	Items_TM_Banners_8: {
+		DisplayName: Ruby slime Banner
+		Tooltip: ""
+	}
+
+	Items_TM_Banners_9: {
+		DisplayName: Ruby eye Banner
+		Tooltip: ""
+	}
+
+	Items_TM_Banners_10: {
+		DisplayName: Sapphire slime Banner
+		Tooltip: ""
+	}
+
+	Items_TM_Banners_11: {
+		DisplayName: Sapphire eye Banner
+		Tooltip: ""
+	}
+
+	Items_TM_Banners_12: {
+		DisplayName: Diamond slime Banner
+		Tooltip: ""
+	}
+
+	Items_TM_Banners_13: {
+		DisplayName: Diamond eye Banner
+		Tooltip: ""
+	}
+
+	Items_TM_Banners_14: {
+		DisplayName: Zombie eye Banner
+		Tooltip: ""
+	}
+
+	Items_TM_Banners_15: {
+		DisplayName: Topaz slime Banner
+		Tooltip: ""
+	}
+
+	Items_TM_Banners_16: {
+		DisplayName: Topaz eye Banner
+		Tooltip: ""
+	}
+
+	Items_TM_Copper_2: {
+		DisplayName: Items_ T M_ Copper_2
+		Tooltip: ""
+	}
+
+	Items_TM_Banners_17: {
+		Tooltip: ""
+		DisplayName: Items_ T M_ Banners_17
+	}
+
+	Items_TM_Amethyst_2: {
+		Tooltip: ""
+		DisplayName: Items_ T M_ Amethyst_2
+	}
+
+	Items_TM_Copper_3: {
+		DisplayName: Items_ T M_ Copper_3
+		Tooltip: ""
+	}
+
+	Items_TM_Diamond_2: {
+		DisplayName: Items_ T M_ Diamond_2
+		Tooltip: ""
+	}
+
+	Items_TM_Emerald_2: {
+		DisplayName: Items_ T M_ Emerald_2
+		Tooltip: ""
+	}
+
+	Items_TM_Ruby_2: {
+		DisplayName: Items_ T M_ Ruby_2
+		Tooltip: ""
+	}
+
+	Items_TM_Sapphire_2: {
+		DisplayName: Items_ T M_ Sapphire_2
+		Tooltip: ""
+	}
+
+	Items_TM_Topaz_2: {
+		DisplayName: Items_ T M_ Topaz_2
+		Tooltip: ""
+	}
 }
 
 NPCs: {
@@ -83,10 +208,11 @@ NPCs: {
 	NPC_Topaz_2.DisplayName: Topaz eye
 	NPC_Diamond_1.DisplayName: Diamond slime
 	NPC_Diamond_2.DisplayName: Diamond eye
-	NPC_Sapphire_1.DisplayName: Sipphire slime
+	NPC_Sapphire_1.DisplayName: Sapphire slime
 	NPC_Sapphire_2.DisplayName: Sapphire eye
 	NPC_Emerald_1.DisplayName: Emerald slime
 	NPC_Emerald_2.DisplayName: Emerald eye
 	NPC_Ruby_1.DisplayName: Ruby slime
 	NPC_Ruby_2.DisplayName: Ruby eye
+	NPC_Slime_2.DisplayName: N P C_ Slime_2
 }

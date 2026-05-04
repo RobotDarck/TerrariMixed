@@ -4,6 +4,7 @@ using Terraria.GameContent.ItemDropRules;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ModLoader.Utilities;
+using TerrariMixed.Content.Items;
 
 namespace TerrariMixed.Content.NPCs
 {
@@ -27,8 +28,9 @@ namespace TerrariMixed.Content.NPCs
 
 			AIType = NPCID.BlueSlime;
 			AnimationType = NPCID.BlueSlime;
-			Banner = Item.NPCtoBanner(NPCID.BlueSlime);
-			BannerItem = Item.BannerToItem(Banner);
+			Banner = Type;
+			BannerItem = ModContent.ItemType<Items_TM_Banners_5>();
+			ItemID.Sets.KillsToBanner[BannerItem] = 50;
 		}
 
 		public override void ModifyNPCLoot(NPCLoot npcLoot) {
@@ -66,8 +68,9 @@ namespace TerrariMixed.Content.NPCs
 
 			AIType = NPCID.DemonEye;
 			AnimationType = NPCID.DemonEye;
-			Banner = Item.NPCtoBanner(NPCID.DemonEye);
-			BannerItem = Item.BannerToItem(Banner);
+			Banner = Type;
+			BannerItem = ModContent.ItemType<Items_TM_Banners_14>();
+			ItemID.Sets.KillsToBanner[BannerItem] = 50;
 		}
 
 		public override void ModifyNPCLoot(NPCLoot npcLoot) {
@@ -75,7 +78,7 @@ namespace TerrariMixed.Content.NPCs
 		}
 
 		public override float SpawnChance(NPCSpawnInfo spawnInfo) {
-			return SpawnCondition.OverworldNightMonster.Chance * 0.20f;
+			return SpawnCondition.OverworldNightMonster.Chance * 0.10f;
 		}
 		public override void SetBestiary(BestiaryDatabase database, BestiaryEntry bestiaryEntry) {
 			bestiaryEntry.Info.AddRange([

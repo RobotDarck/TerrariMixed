@@ -19,7 +19,26 @@ namespace TerrariMixed.Content.Items
 			Recipe recipe = CreateRecipe(25);
 			recipe.AddIngredient(ItemID.Gel, 25);
 			recipe.AddIngredient(ItemID.Topaz, 1);
-			recipe.AddTile(TileID.WorkBenches);
+			recipe.AddTile(TileID.Solidifier);
+			recipe.Register();
+		}
+	}
+	public class Items_TM_Topaz_2 : ModItem
+	{
+		public override void SetDefaults() {
+			Item.width = 8;
+			Item.height = 11;
+			Item.rare = ItemRarityID.White;
+			Item.value = Item.buyPrice(silver: 2, copper: 50);
+			Item.ResearchUnlockCount = 25;
+			Item.maxStack = 9999;
+		}
+		public override void AddRecipes()
+		{
+			Recipe recipe = CreateRecipe(5);
+			recipe.AddIngredient(ItemID.Lens, 5);
+			recipe.AddIngredient(ItemID.Topaz, 1);
+			recipe.AddTile(TileID.Solidifier);
 			recipe.Register();
 		}
 	}

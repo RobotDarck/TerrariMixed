@@ -4,6 +4,7 @@ using Terraria.GameContent.ItemDropRules;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ModLoader.Utilities;
+using TerrariMixed.Content.Items;
 
 namespace TerrariMixed.Content.NPCs
 {
@@ -27,8 +28,9 @@ namespace TerrariMixed.Content.NPCs
 
 			AIType = NPCID.BlueSlime;
 			AnimationType = NPCID.BlueSlime;
-			Banner = Item.NPCtoBanner(NPCID.BlueSlime);
-			BannerItem = Item.BannerToItem(Banner);
+			Banner = Type;
+			BannerItem = ModContent.ItemType<Items_TM_Banners_3>();
+			ItemID.Sets.KillsToBanner[BannerItem] = 50;
 		}
 
 		public override void ModifyNPCLoot(NPCLoot npcLoot) {
@@ -67,12 +69,13 @@ namespace TerrariMixed.Content.NPCs
 
 			AIType = NPCID.DemonEye;
 			AnimationType = NPCID.DemonEye;
-			Banner = Item.NPCtoBanner(NPCID.DemonEye);
-			BannerItem = Item.BannerToItem(Banner);
+			Banner = Type;
+			BannerItem = ModContent.ItemType<Items_TM_Banners_4>();
+			ItemID.Sets.KillsToBanner[BannerItem] = 50;
 		}
 
 		public override void ModifyNPCLoot(NPCLoot npcLoot) {
-			//npcLoot.Add(ItemDropRule.Common(ItemID.Confetti, 100));
+			npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<Items_TM_Copper_3>(), 3, 1));
 		}
 
 		public override float SpawnChance(NPCSpawnInfo spawnInfo) {
@@ -89,7 +92,7 @@ namespace TerrariMixed.Content.NPCs
 		public class NPC_Copper_3 : ModNPC
 	{
 		public override void SetStaticDefaults() {
-			Main.npcFrameCount[Type] = Main.npcFrameCount[NPCID.ZombieXmas];
+			Main.npcFrameCount[Type] = Main.npcFrameCount[NPCID.Zombie];
 		}
 
 		public override void SetDefaults() {
@@ -106,8 +109,9 @@ namespace TerrariMixed.Content.NPCs
 
 			AIType = NPCID.Zombie;
 			AnimationType = NPCID.Zombie;
-			Banner = Item.NPCtoBanner(NPCID.Zombie);
-			BannerItem = Item.BannerToItem(Banner);
+			Banner = Type;
+			BannerItem = ModContent.ItemType<Items_TM_Banners_5>();
+			ItemID.Sets.KillsToBanner[BannerItem] = 50;
 		}
 
 		public override void ModifyNPCLoot(NPCLoot npcLoot) {

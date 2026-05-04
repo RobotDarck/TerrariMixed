@@ -26,4 +26,42 @@ namespace TerrariMixed.Content.Items
 			recipe2.Register();
 		}
 	}
+	public class Items_TM_Copper_2 : ModItem
+	{
+		public override void SetDefaults() {
+			Item.width = 8;
+			Item.height = 7;
+			Item.rare = ItemRarityID.White;
+			Item.value = Item.buyPrice(copper: 2);
+			Item.ResearchUnlockCount = 99;
+			Item.maxStack = 9999;
+		}
+		public override void AddRecipes()
+		{
+			Recipe recipe = CreateRecipe();
+			recipe.AddIngredient(ItemID.Gel, 1);
+			recipe.AddIngredient(ItemID.CopperCoin, 1);
+			recipe.AddTile(TileID.Solidifier);
+			recipe.Register();
+		}
+	}
+	public class Items_TM_Copper_3 : ModItem
+	{
+		public override void SetDefaults() {
+			Item.width = 8;
+			Item.height = 11;
+			Item.rare = ItemRarityID.White;
+			Item.value = Item.buyPrice(silver: 1, copper: 25);
+			Item.ResearchUnlockCount = 25;
+			Item.maxStack = 9999;
+		}
+		public override void AddRecipes()
+		{
+			Recipe recipe = CreateRecipe(5);
+			recipe.AddIngredient(ItemID.Lens, 1);
+			recipe.AddIngredient(ItemID.CopperCoin, 25);
+			recipe.AddTile(TileID.HeavyWorkBench);
+			recipe.Register();
+		}
+	}
 }

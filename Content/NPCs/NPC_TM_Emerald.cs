@@ -27,17 +27,18 @@ namespace TerrariMixed.Content.NPCs
 			NPC.aiStyle = NPCAIStyleID.Slime;
 			AIType = NPCID.BlueSlime;
 			AnimationType = NPCID.BlueSlime;
-			Banner = Item.NPCtoBanner(NPCID.BlueSlime);
-			BannerItem = Item.BannerToItem(Banner);
+			Banner = Type;
+			BannerItem = ModContent.ItemType<Items_TM_Banners_6>();
+			ItemID.Sets.KillsToBanner[BannerItem] = 50;
 		}
 
 		public override void ModifyNPCLoot(NPCLoot npcLoot) {
 			npcLoot.Add(ItemDropRule.Common(ItemID.Emerald, 5, 1, 3));
-			npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<Items_TM_Emerald_1>(), 5, 1, 3));
+			npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<Items_TM_Emerald_1>(), 1, 1, 3));
 		}
 
 		public override float SpawnChance(NPCSpawnInfo spawnInfo) {
-			return SpawnCondition.Cavern.Chance * 0.05f;
+			return SpawnCondition.Cavern.Chance * 0.025f;
 		}
 		public override void SetBestiary(BestiaryDatabase database, BestiaryEntry bestiaryEntry) {
 			bestiaryEntry.Info.AddRange([
@@ -67,16 +68,18 @@ namespace TerrariMixed.Content.NPCs
 
 			AIType = NPCID.DemonEye;
 			AnimationType = NPCID.DemonEye;
-			Banner = Item.NPCtoBanner(NPCID.DemonEye);
-			BannerItem = Item.BannerToItem(Banner);
+			Banner = Type;
+			BannerItem = ModContent.ItemType<Items_TM_Banners_7>();
+			ItemID.Sets.KillsToBanner[BannerItem] = 50;
 		}
 
 		public override void ModifyNPCLoot(NPCLoot npcLoot) {
 			npcLoot.Add(ItemDropRule.Common(ItemID.Emerald, 5, 1, 3));
+			npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<Items_TM_Emerald_2>(), 3, 1));
 		}
 
 		public override float SpawnChance(NPCSpawnInfo spawnInfo) {
-			return SpawnCondition.Cavern.Chance * 0.05f;
+			return SpawnCondition.Cavern.Chance * 0.025f;
 		}
 		public override void SetBestiary(BestiaryDatabase database, BestiaryEntry bestiaryEntry) {
 			bestiaryEntry.Info.AddRange([
