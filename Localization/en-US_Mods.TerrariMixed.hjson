@@ -152,47 +152,47 @@ Items: {
 	}
 
 	Items_TM_Copper_2: {
-		DisplayName: Items_ T M_ Copper_2
+		DisplayName: Copper gel
 		Tooltip: ""
 	}
 
 	Items_TM_Banners_17: {
 		Tooltip: ""
-		DisplayName: Items_ T M_ Banners_17
+		DisplayName: Slimy eye Banner
 	}
 
 	Items_TM_Amethyst_2: {
 		Tooltip: ""
-		DisplayName: Items_ T M_ Amethyst_2
+		DisplayName: Amethyst lens
 	}
 
 	Items_TM_Copper_3: {
-		DisplayName: Items_ T M_ Copper_3
+		DisplayName: Copper lens
 		Tooltip: ""
 	}
 
 	Items_TM_Diamond_2: {
-		DisplayName: Items_ T M_ Diamond_2
+		DisplayName: Diamond lens
 		Tooltip: ""
 	}
 
 	Items_TM_Emerald_2: {
-		DisplayName: Items_ T M_ Emerald_2
+		DisplayName: Emerald lens
 		Tooltip: ""
 	}
 
 	Items_TM_Ruby_2: {
-		DisplayName: Items_ T M_ Ruby_2
+		DisplayName: Ruby lens
 		Tooltip: ""
 	}
 
 	Items_TM_Sapphire_2: {
-		DisplayName: Items_ T M_ Sapphire_2
+		DisplayName: Sapphire lens
 		Tooltip: ""
 	}
 
 	Items_TM_Topaz_2: {
-		DisplayName: Items_ T M_ Topaz_2
+		DisplayName: Topaz lens
 		Tooltip: ""
 	}
 }
@@ -214,5 +214,5 @@ NPCs: {
 	NPC_Emerald_2.DisplayName: Emerald eye
 	NPC_Ruby_1.DisplayName: Ruby slime
 	NPC_Ruby_2.DisplayName: Ruby eye
-	NPC_Slime_2.DisplayName: N P C_ Slime_2
+	NPC_Slime_2.DisplayName: Slimy eye
 }

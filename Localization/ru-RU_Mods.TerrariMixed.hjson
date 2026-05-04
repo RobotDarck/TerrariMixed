@@ -72,128 +72,128 @@ Items: {
 	}
 
 	Items_TM_Banners_1: {
-		// DisplayName: Amethyst slime Banner
-		// Tooltip: ""
+		DisplayName: Знамя аметистового слизня
+		Tooltip: ""
 	}
 
 	Items_TM_Banners_2: {
-		// DisplayName: Amethyst eye Banner
-		// Tooltip: ""
+		DisplayName: Знамя аметистового глаза
+		Tooltip: ""
 	}
 
 	Items_TM_Banners_3: {
-		// DisplayName: Copper slime Banner
-		// Tooltip: ""
+		DisplayName: Знамя медного слизня
+		Tooltip: ""
 	}
 
 	Items_TM_Banners_4: {
-		// DisplayName: Copper demon eye Banner
-		// Tooltip: ""
+		DisplayName: Знамя медного глаза
+		Tooltip: ""
 	}
 
 	Items_TM_Banners_5: {
-		// DisplayName: Copper zombie Banner
-		// Tooltip: ""
+		DisplayName: Знамя медного зомби
+		Tooltip: ""
 	}
 
 	Items_TM_Banners_6: {
-		// DisplayName: Emerald slime Banner
-		// Tooltip: ""
+		DisplayName: Знамя изумрудного слизня
+		Tooltip: ""
 	}
 
 	Items_TM_Banners_7: {
-		// DisplayName: Emerald eye Banner
-		// Tooltip: ""
+		DisplayName: Знамя изумрудного глаза
+		Tooltip: ""
 	}
 
 	Items_TM_Banners_8: {
-		// DisplayName: Ruby slime Banner
-		// Tooltip: ""
+		DisplayName: Знамя рубинового слизня
+		Tooltip: ""
 	}
 
 	Items_TM_Banners_9: {
-		// DisplayName: Ruby eye Banner
-		// Tooltip: ""
+		DisplayName: Знамя рубинового глаза
+		Tooltip: ""
 	}
 
 	Items_TM_Banners_10: {
-		// DisplayName: Sapphire slime Banner
-		// Tooltip: ""
+		DisplayName: Знамя сапфирового слизня
+		Tooltip: ""
 	}
 
 	Items_TM_Banners_11: {
-		// DisplayName: Sapphire eye Banner
-		// Tooltip: ""
+		DisplayName:Знамя сапфирового глаза
+		Tooltip: ""
 	}
 
 	Items_TM_Banners_12: {
-		// DisplayName: Diamond slime Banner
-		// Tooltip: ""
+		DisplayName: Знамя алмазного слизня
+		Tooltip: ""
 	}
 
 	Items_TM_Banners_13: {
-		// DisplayName: Diamond eye Banner
-		// Tooltip: ""
+		DisplayName: Знамя алмазного глаза
+		Tooltip: ""
 	}
 
 	Items_TM_Banners_14: {
-		// DisplayName: Zombie eye Banner
-		// Tooltip: ""
+		DisplayName: Знамя мёртвого глаза
+		Tooltip: ""
 	}
 
 	Items_TM_Banners_15: {
-		// DisplayName: Topaz slime Banner
-		// Tooltip: ""
+		DisplayName: Знамя топазового слизня
+		Tooltip: ""
 	}
 
 	Items_TM_Banners_16: {
-		// DisplayName: Topaz eye Banner
-		// Tooltip: ""
+		DisplayName: Знамя топазового глаза
+		Tooltip: ""
 	}
 
 	Items_TM_Copper_2: {
-		// DisplayName: Items_ T M_ Copper_2
-		// Tooltip: ""
+		DisplayName: Медный гель
+		Tooltip: ""
 	}
 
 	Items_TM_Banners_17: {
-		// Tooltip: ""
-		// DisplayName: Items_ T M_ Banners_17
+		Tooltip: ""
+		DisplayName: Знамя слизнеглаза
 	}
 
 	Items_TM_Amethyst_2: {
-		// Tooltip: ""
-		// DisplayName: Items_ T M_ Amethyst_2
+		Tooltip: ""
+		DisplayName: Аметистовая линза
 	}
 
 	Items_TM_Copper_3: {
-		// DisplayName: Items_ T M_ Copper_3
-		// Tooltip: ""
+		DisplayName: Медная линза
+		Tooltip: ""
 	}
 
 	Items_TM_Diamond_2: {
-		// DisplayName: Items_ T M_ Diamond_2
-		// Tooltip: ""
+		DisplayName: Алмазная линза
+		Tooltip: ""
 	}
 
 	Items_TM_Emerald_2: {
-		// DisplayName: Items_ T M_ Emerald_2
-		// Tooltip: ""
+		DisplayName: Изумрудная линза
+		Tooltip: ""
 	}
 
 	Items_TM_Ruby_2: {
-		// DisplayName: Items_ T M_ Ruby_2
-		// Tooltip: ""
+		DisplayName: Рубиновая линза
+		Tooltip: ""
 	}
 
 	Items_TM_Sapphire_2: {
-		// DisplayName: Items_ T M_ Sapphire_2
-		// Tooltip: ""
+		DisplayName: Сапфировая линза
+		Tooltip: ""
 	}
 
 	Items_TM_Topaz_2: {
-		// DisplayName: Items_ T M_ Topaz_2
-		// Tooltip: ""
+		DisplayName: Топазовая линза
+		Tooltip: ""
 	}
 }
 
@@ -203,7 +203,7 @@ NPCs: {
 	NPC_Copper_3.DisplayName: Медный зомби
 	NPC_Amethyst_1.DisplayName: Аметистовый слизень
 	NPC_Amethyst_2.DisplayName: Аметистовый глаз
-	NPC_Zombie_2.DisplayName: Зомби глаз
+	NPC_Zombie_2.DisplayName: Мёртвый глаз
 	NPC_Topaz_1.DisplayName: Топазовый слизень
 	NPC_Topaz_2.DisplayName: Топазовый глаз
 	NPC_Diamond_1.DisplayName: Алмазный слизень
@@ -214,5 +214,5 @@ NPCs: {
 	NPC_Emerald_2.DisplayName: Изумрудный глаз
 	NPC_Ruby_1.DisplayName: Рубиновый слизень
 	NPC_Ruby_2.DisplayName: Рубиновый глаз
-	// NPC_Slime_2.DisplayName: N P C_ Slime_2
+	NPC_Slime_2.DisplayName: Слизнеглаз
 }
