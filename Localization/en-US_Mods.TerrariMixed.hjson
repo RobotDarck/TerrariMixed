@@ -195,6 +195,116 @@ Items: {
 		DisplayName: Topaz lens
 		Tooltip: ""
 	}
+
+	Items_TM_Stone_1: {
+		Tooltip: ""
+		DisplayName: Stone gel
+	}
+
+	Items_TM_Banners_18: {
+		Tooltip: ""
+		DisplayName: Stone slime Banner
+	}
+
+	Items_TM_Sollar_1: {
+		DisplayName: Solar warrior emblem
+		Tooltip: 25% increased melee damage
+	}
+
+	Items_TM_Sollar_2: {
+		DisplayName: Solar range emblem
+		Tooltip: 15% increased range damage
+	}
+
+	Items_TM_Sollar_3: {
+		DisplayName: Solar sorcerer emblem
+		Tooltip: 15% increased magic damage
+	}
+
+	Items_TM_Sollar_4: {
+		DisplayName: Solar summoner emblem
+		Tooltip: 15% increased summon damage
+	}
+
+	Items_TM_Banners_19: {
+		DisplayName: Solar slime Banner
+		Tooltip: ""
+	}
+
+	Items_TM_Vortex_4: {
+		Tooltip: ""
+		DisplayName: Vortex summoner emblem
+	}
+
+	Items_TM_Vortex_3: {
+		Tooltip: ""
+		DisplayName: Vortex sorcerer emblem
+	}
+
+	Items_TM_Vortex_2: {
+		Tooltip: ""
+		DisplayName: Vortex range emblem
+	}
+
+	Items_TM_Vortex_1: {
+		Tooltip: ""
+		DisplayName: Vortex warrior emblem
+	}
+
+	Items_TM_Stardust_4: {
+		Tooltip: ""
+		DisplayName: Items_ T M_ Stardust_4
+	}
+
+	Items_TM_Stardust_3: {
+		Tooltip: ""
+		DisplayName: Items_ T M_ Stardust_3
+	}
+
+	Items_TM_Stardust_2: {
+		Tooltip: ""
+		DisplayName: Items_ T M_ Stardust_2
+	}
+
+	Items_TM_Stardust_1: {
+		Tooltip: ""
+		DisplayName: Items_ T M_ Stardust_1
+	}
+
+	Items_TM_Nebula_4: {
+		Tooltip: ""
+		DisplayName: Items_ T M_ Nebula_4
+	}
+
+	Items_TM_Nebula_3: {
+		Tooltip: ""
+		DisplayName: Items_ T M_ Nebula_3
+	}
+
+	Items_TM_Nebula_2: {
+		Tooltip: ""
+		DisplayName: Items_ T M_ Nebula_2
+	}
+
+	Items_TM_Nebula_1: {
+		Tooltip: ""
+		DisplayName: Items_ T M_ Nebula_1
+	}
+
+	Items_TM_Banners_20: {
+		DisplayName: Items_ T M_ Banners_20
+		Tooltip: ""
+	}
+
+	Item_TM_58: {
+		DisplayName: Item_ T M_58
+		Tooltip: ""
+	}
+
+	Item_TM_59: {
+		DisplayName: Item_ T M_59
+		Tooltip: ""
+	}
 }
 
 NPCs: {
@@ -215,4 +325,29 @@ NPCs: {
 	NPC_Ruby_1.DisplayName: Ruby slime
 	NPC_Ruby_2.DisplayName: Ruby eye
 	NPC_Slime_2.DisplayName: Slimy eye
+	NPC_Stone_1.DisplayName: Stone slime
+	NPC_Solar_1.DisplayName: Solar slime
+}
+
+Bestiary: {
+	ImportantFlavorText: Hello! Im new NPC
+	NPC_Copper_1: It's amazing that this slime is covered with pure copper and it manages to jump so high, it's a pity that it can't be sold, although it won't cost much.
+	NPC_Copper_2: It's amazing how this demonic eye, covered with pure copper, flies around despite its weight, it's a pity that it can't be sold, although it won't cost much.
+	NPC_Copper_3: An interesting situation: this zombie was covered with pure copper when he died, he was probably rich during his life, it’s a pity that he can’t be sold, although he won’t be worth much.
+	NPC_Amethyst_1: This slime is a relative of the black slime, but it absorbed and merged with amethyst, receiving magical power from it.
+	NPC_Amethyst_2: This demonic eye was overgrown with amethysts, thanks to which it received its magical power, but why the gems parasitize on living organisms is a mystery.
+	NPC_Zombie_2: This eye wandered around the world for a very long time and died of old age, but it was resurrected and continues to do the same as it did during life.
+	NPC_Topaz_1: This slime is a relative of the black slime, but it absorbed and merged with topaz, receiving magical power from it.
+	NPC_Topaz_2: This demonic eye was overgrown with topazes, thanks to which it received its magical power, but why the gems parasitize on living organisms is a mystery.
+	NPC_Diamond_1: This slime is a relative of the black slime, but it absorbed and merged with diamond, receiving magical power from it.
+	NPC_Diamond_2: This demonic eye was overgrown with diamonds, thanks to which it received its magical power, but why the gems parasitize on living organisms is a mystery.
+	NPC_Sapphire_1: This slime is a relative of the black slime, but it absorbed and merged with sapphire, receiving magical power from it.
+	NPC_Sapphire_2: This demonic eye was overgrown with sapphires, thanks to which it received its magical power, but why the gems parasitize on living organisms is a mystery.
+	NPC_Emerald_1: This slime is a relative of the black slime, but it absorbed and merged with emerald, receiving magical power from it.
+	NPC_Emerald_2: This demonic eye was overgrown with emeralds, thanks to which it received its magical power, but why the gems parasitize on living organisms is a mystery.
+	NPC_Ruby_1: This slime is a relative of the black slime, but it absorbed and merged with ruby, receiving magical power from it.
+	NPC_Ruby_2: This demonic eye was overgrown with rubies, thanks to which it received its magical power, but why the gems parasitize on living organisms is a mystery.
+	NPC_Slime_2: This eye was unlucky and was swallowed by a slime that merged with it. Now this slime flies around and swallows fallen leaves and birds that it meets on the way.
+	NPC_Stone_1: Surviving in the dark depths of caves, this slime ate small pebbles, which is why it grew a stone shell.
+	NPC_Solar_1: The seal is broken and ancient beings are awakening. The sun slime is the revived solar matter that has not acquired its true form.
 }

@@ -38,13 +38,21 @@ namespace TerrariMixed.Content.NPCs
 		}
 
 		public override float SpawnChance(NPCSpawnInfo spawnInfo) {
-			return SpawnCondition.Cavern.Chance * 0.025f;
+			if (spawnInfo.Player.ZoneNormalCaverns && !Main.dayTime)
+			{
+				return 0.025f;
+			}
+			else if (spawnInfo.Player.ZoneGemCave)
+			{
+				return 0.03f;
+			}
+			return 0f;
 		}
 		public override void SetBestiary(BestiaryDatabase database, BestiaryEntry bestiaryEntry) {
 			bestiaryEntry.Info.AddRange([
 				BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Biomes.Caverns,
 
-				new FlavorTextBestiaryInfoElement("He is shiny, but cheap."),
+				new FlavorTextBestiaryInfoElement("Mods.TerrariMixed.Bestiary.NPC_Ruby_1")
 			]);
 		}
 	}
@@ -79,13 +87,21 @@ namespace TerrariMixed.Content.NPCs
 		}
 
 		public override float SpawnChance(NPCSpawnInfo spawnInfo) {
-			return SpawnCondition.Cavern.Chance * 0.025f;
+			if (spawnInfo.Player.ZoneNormalCaverns && !Main.dayTime)
+			{
+				return 0.025f;
+			}
+			else if (spawnInfo.Player.ZoneGemCave)
+			{
+				return 0.03f;
+			}
+			return 0f;
 		}
 		public override void SetBestiary(BestiaryDatabase database, BestiaryEntry bestiaryEntry) {
 			bestiaryEntry.Info.AddRange([
 				BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Biomes.Caverns,
 
-				new FlavorTextBestiaryInfoElement("He is shiny, but cheap."),
+				new FlavorTextBestiaryInfoElement("Mods.TerrariMixed.Bestiary.NPC_Ruby_2")
 			]);
 		}
 	}

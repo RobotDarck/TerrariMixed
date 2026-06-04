@@ -8,46 +8,6 @@ using TerrariMixed.Content.Items;
 
 namespace TerrariMixed.Content.NPCs
 {
-	/*public class NPC_Zombie_1 : ModNPC
-	{
-		public override void SetStaticDefaults() {
-			Main.npcFrameCount[Type] = Main.npcFrameCount[NPCID.BlueSlime];
-		}
-
-		public override void SetDefaults() {
-			NPC.width = 16;
-			NPC.height = 12;
-			NPC.damage = 20;
-			NPC.defense = 3;
-			NPC.lifeMax = 60;
-			NPC.HitSound = SoundID.NPCHit1;
-			NPC.DeathSound = SoundID.NPCDeath1;
-			NPC.value = 120f;
-			NPC.knockBackResist = 0.5f;
-			NPC.aiStyle = NPCAIStyleID.Slime;
-
-			AIType = NPCID.BlueSlime;
-			AnimationType = NPCID.BlueSlime;
-			Banner = Type;
-			BannerItem = ModContent.ItemType<Items_TM_Banners_5>();
-			ItemID.Sets.KillsToBanner[BannerItem] = 50;
-		}
-
-		public override void ModifyNPCLoot(NPCLoot npcLoot) {
-			npcLoot.Add(ItemDropRule.Common(ItemID.Amethyst, 5, 1, 3));
-		}
-
-		public override float SpawnChance(NPCSpawnInfo spawnInfo) {
-			return SpawnCondition.Cavern.Chance * 0.15f;
-		}
-		public override void SetBestiary(BestiaryDatabase database, BestiaryEntry bestiaryEntry) {
-			bestiaryEntry.Info.AddRange([
-				BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Biomes.Caverns,
-
-				new FlavorTextBestiaryInfoElement("He is shiny, but cheap."),
-			]);
-		}
-	}*/
 	public class NPC_Zombie_2 : ModNPC
 	{
 		public override void SetStaticDefaults() {
@@ -84,7 +44,7 @@ namespace TerrariMixed.Content.NPCs
 			bestiaryEntry.Info.AddRange([
 				BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Times.NightTime,
 
-				new FlavorTextBestiaryInfoElement("He is shiny, but cheap."),
+				new FlavorTextBestiaryInfoElement("Mods.TerrariMixed.Bestiary.NPC_Zombie_2")
 			]);
 		}
 	}

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TerrariMixed")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1882facac3146a02d225d46806c22930d35964c5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+381baae822fbb5f5d2e77a8aad7b4b2b4d1b9840")]
 [assembly: System.Reflection.AssemblyProductAttribute("TerrariMixed")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TerrariMixed")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

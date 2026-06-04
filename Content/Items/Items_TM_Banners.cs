@@ -2,6 +2,7 @@ using TerrariMixed.Content.Tiles;
 using Terraria;
 using Terraria.Enums;
 using Terraria.ModLoader;
+using Terraria.ID;
 
 namespace TerrariMixed.Content.Items
 {
@@ -157,5 +158,40 @@ namespace TerrariMixed.Content.Items
 			Item.height = 24;
 			Item.SetShopValues(ItemRarityColor.Blue1, Item.buyPrice(silver: 10));
 		}
+	}
+	public class Items_TM_Banners_18 : ModItem
+	{
+		public override void SetDefaults() {
+			Item.DefaultToPlaceableTile(ModContent.TileType<Tiles_TM_Banners>(), (int)Tiles_TM_Banners.StyleID.NPC_TM_Stone_1);
+			Item.width = 10;
+			Item.height = 24;
+			Item.SetShopValues(ItemRarityColor.Blue1, Item.buyPrice(silver: 10));
+		}
+	}
+	public class Items_TM_Banners_19 : ModItem
+	{
+		public override void SetDefaults() {
+			Item.DefaultToPlaceableTile(ModContent.TileType<Tiles_TM_Banners>(), (int)Tiles_TM_Banners.StyleID.NPC_TM_Solar_1);
+			Item.width = 10;
+			Item.height = 24;
+			Item.SetShopValues(ItemRarityColor.Blue1, Item.buyPrice(silver: 10));
+		}
+	}
+	public class Items_TM_Banners_20 : ModItem
+	{
+		public override void SetDefaults() {
+			Item.DefaultToPlaceableTile(ModContent.TileType<Tiles_TM_Banners>(), (int)Tiles_TM_Banners.StyleID.Items_TM_Copper_Banner);
+			Item.width = 10;
+			Item.height = 24;
+			Item.SetShopValues(ItemRarityColor.White0, Item.buyPrice(silver: 1));
+		}
+        public override void AddRecipes()
+        {
+            Recipe recipe = CreateRecipe();
+			recipe.AddIngredient(ItemID.Silk, 3);
+			recipe.AddIngredient(ItemID.CopperCoin, 50);
+			recipe.AddTile(TileID.Loom);
+			recipe.Register();
+        }
 	}
 }

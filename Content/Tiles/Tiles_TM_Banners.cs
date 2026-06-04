@@ -25,7 +25,10 @@ namespace TerrariMixed.Content.Tiles
             NPC_TM_Zombie_2,
             NPC_TM_Topaz_1,
             NPC_TM_Topaz_2,
-            NPC_TM_Slime_2
+            NPC_TM_Slime_2,
+            NPC_TM_Stone_1,
+            NPC_TM_Solar_1,
+            Items_TM_Copper_Banner
 		}
 	}
 }

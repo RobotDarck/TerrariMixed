@@ -28,13 +28,13 @@ namespace TerrariMixed.Content.NPCs
 
 			AIType = NPCID.BlueSlime;
 			AnimationType = NPCID.BlueSlime;
-			Banner = Type;
+			Banner  = Type;
 			BannerItem = ModContent.ItemType<Items_TM_Banners_3>();
 			ItemID.Sets.KillsToBanner[BannerItem] = 50;
 		}
 
 		public override void ModifyNPCLoot(NPCLoot npcLoot) {
-			//npcLoot.Add(ItemDropRule.Common(ItemID.Confetti, 100));
+			npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<Items_TM_Copper_2>(), 1, 1, 3));
 		}
 
 		public override float SpawnChance(NPCSpawnInfo spawnInfo) {
@@ -45,7 +45,7 @@ namespace TerrariMixed.Content.NPCs
 				BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Biomes.Surface,
 				BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Times.DayTime,
 
-				new FlavorTextBestiaryInfoElement("He is shiny, but cheap."),
+				new FlavorTextBestiaryInfoElement("Mods.TerrariMixed.Bestiary.NPC_Copper_1")
 			]);
 		}
 	}
@@ -85,7 +85,7 @@ namespace TerrariMixed.Content.NPCs
 			bestiaryEntry.Info.AddRange([
 				BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Times.NightTime,
 
-				new FlavorTextBestiaryInfoElement("He is shiny, but cheap."),
+				new FlavorTextBestiaryInfoElement("Mods.TerrariMixed.Bestiary.NPC_Copper_2")
 			]);
 		}
 	}
@@ -125,7 +125,7 @@ namespace TerrariMixed.Content.NPCs
 			bestiaryEntry.Info.AddRange([
 				BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Times.NightTime,
 
-				new FlavorTextBestiaryInfoElement("He is shiny, but cheap."),
+				new FlavorTextBestiaryInfoElement("Mods.TerrariMixed.Bestiary.NPC_Copper_3")
 			]);
 		}
 	}
