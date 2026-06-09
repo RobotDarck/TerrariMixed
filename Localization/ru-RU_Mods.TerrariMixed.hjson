@@ -351,7 +351,7 @@ Items: {
 
 	Item_TM_59: {
 		DisplayName: Знак стрелков
-		Tooltip: ""
+		Tooltip: "Прячься, охоться, стреляй"
 	}
 }
 

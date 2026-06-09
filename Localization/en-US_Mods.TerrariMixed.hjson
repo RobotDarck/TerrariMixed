@@ -292,18 +292,18 @@ Items: {
 	}
 
 	Items_TM_Banners_20: {
-		DisplayName: Items_ T M_ Banners_20
+		DisplayName: Solar slime Banner
 		Tooltip: ""
 	}
 
 	Item_TM_58: {
-		DisplayName: Item_ T M_58
+		DisplayName: coarse cobalt silk
 		Tooltip: ""
 	}
 
 	Item_TM_59: {
-		DisplayName: Item_ T M_59
-		Tooltip: ""
+		DisplayName: Rangers sign
+		Tooltip: "Hide, hunt and shoot"
 	}
 }
 
