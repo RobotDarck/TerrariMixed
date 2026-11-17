@@ -4,10 +4,10 @@
     "Content\\NPCs\\NPC_TM_Stone.cs": "TerrariMixed.Content.NPCs",
     "Content\\NPCs\\NPC_TM_Solar.cs": "TerrariMixed.Content.NPCs",
     "Content\\Items\\Items_TM_Nebula.cs": "TerrariMixed.Content.Items",
-    "Content\\Items\\Items_TM_Vortex.cs": "TerrariMixed.Content.Items",
     "Content\\Items\\Items_TM_Stardust.cs": "TerrariMixed.Content.Items",
     "Content\\Items\\Items_TM_Sollar.cs": "TerrariMixed.Content.Items",
     "Content\\Items\\Items_TM.cs": "TerrariMixed.Content.Items",
-    "Content\\Tiles\\Tiles_TM.cs": "TerrariMixed.Content.Tiles"
+    "Content\\Tiles\\Tiles_TM.cs": "TerrariMixed.Content.Tiles",
+    "Content\\Items\\Accessories_TM.cs": "TerrariMixed.Content.Items"
   }
 }

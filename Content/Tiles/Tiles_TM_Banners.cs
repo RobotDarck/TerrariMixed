@@ -28,7 +28,9 @@ namespace TerrariMixed.Content.Tiles
             NPC_TM_Slime_2,
             NPC_TM_Stone_1,
             NPC_TM_Solar_1,
-            Items_TM_Copper_Banner
+            Items_TM_Copper_Banner,
+            NPC_TM_21,
+            NPC_TM_22
 		}
 	}
 }
